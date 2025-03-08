@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Elite in-game tools
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web para herramientas de juego en tiempo real, llamada "Elite in-game tools". Está construida con React y Bootstrap para proporcionar una interfaz de usuario moderna y responsiva.
 
-## Available Scripts
+## Instalación
 
-In the project directory, you can run:
+Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
 
-### `npm start`
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Ejecución
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para iniciar la aplicación en modo de desarrollo, ejecuta el siguiente comando:
 
-### `npm test`
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La aplicación estará disponible en http://localhost:3000.
 
-### `npm run build`
+## Construcción
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para crear una versión de producción de la aplicación, ejecuta el siguiente comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Los archivos de construcción se generarán en la carpeta build.
 
-### `npm run eject`
+## Estructura del Proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `src/`: Contiene el código fuente de la aplicación.
+  - `App.js`: Componente principal de la aplicación.
+  - `Navbar.js`: Componente de la barra de navegación.
+  - `index.js`: Punto de entrada de la aplicación.
+  - `index.css`: Estilos globales de la aplicación.
+- `public/`: Contiene archivos estáticos y el archivo index.html.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencias
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `react`: ^18.0.0
+- `react-dom`: ^18.0.0
+- `react-bootstrap`: ^2.10.9
+- `bootstrap`: ^5.3.3
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribución
 
-## Learn More
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Haz un fork del repositorio.
+1. Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+1. Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
+1. Haz push a la rama (git push origin feature/nueva-funcionalidad).
+1. Abre un Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licencia
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
